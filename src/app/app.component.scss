@@ -1,0 +1,37 @@
+:host {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 40px;
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .grey {
+    background-color: grey;
+  }
+
+  .raripepe-sale {
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+}
